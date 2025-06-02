@@ -1262,7 +1262,23 @@ footer {
   color: #4267B2;
   transform: scale(1.05);
 }
+.tiktok-videos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding-bottom: 2rem;
+}
 
+
+.tiktok-video {
+  width: 30px; /* Fixed width for consistency */
+  height: 200px; /* Fixed height for consistency */
+  background-color: #f0f0f0; /* Placeholder background */
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
 /* Animations */
 @keyframes fadeInUp {
   from {
